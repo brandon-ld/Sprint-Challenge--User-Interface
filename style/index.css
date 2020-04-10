@@ -28,6 +28,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header{
+    width:100%;
+    display: flex;
+    justify-content: left;
+}
+.logo{
+    align-items: left;
+    margin-left: 21.7%;
+}
+header nav a{
+    font-size:1rem;
+}
 body {
 	line-height: 1;
 }
