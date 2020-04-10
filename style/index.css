@@ -49,7 +49,6 @@ header nav a:hover{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
     padding-bottom: 2%;
 }
 body {
@@ -202,10 +201,27 @@ footer nav a {
         font-size: .9rem;
     }
     .banner{
-        width:20%;
+        width:90%;
     }
     header nav a{
         flex-direction: column;
+    }
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        
+    }
+    .top-content .text-container {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        height: 10.5rem;
+        padding: 0 1%;
+        padding-bottom: 30px;
     }
     .middle-content .boxes{
         flex-direction: column;
@@ -213,7 +229,9 @@ footer nav a {
     }
     .container{
         font-size: .85rem;
-        display:flex;
-        flex-direction: column;
+        width:100%;
+    }
+    footer {
+        background: black;
     }
 }
