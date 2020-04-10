@@ -29,16 +29,28 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 header{
-    width:100%;
-    display: flex;
-    justify-content: left;
-}
-.logo{
-    align-items: left;
-    margin-left: 21.7%;
+    padding:3%;
+    margin-left: 5%;
+    display:flex;
+    justify-content: center;
 }
 header nav a{
     font-size:1rem;
+    display: inline;
+    padding-right: 70px;
+    text-decoration: none;
+    color:black
+}
+header nav a:hover{
+    color:rgb(126, 126, 126);
+}
+.banner{
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59.5%;
+    padding-bottom: 2%;
 }
 body {
 	line-height: 1;
@@ -101,7 +113,6 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -123,7 +134,37 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/* Box colors: teal gold cadetblue coral crimson forestgreen darkorchid hotpink indigo dodgerblue*/
+.middle-content .boxes .box:nth-child(1){
+    background:teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background:gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background:cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background:coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background:crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background:forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background:darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background:hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background:indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -155,4 +196,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+@media(max-width:500px){
+    body{
+        font-size: 30rem;
+    }
 }
